@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="employees.xsd">
+
+    <employee empID="E101">
+        <name>Dnyaneshwar Danane</name>
+        <department>HR</department>
+        <designation>Manager</designation>
+        <salary>55000</salary>
+        <email>dnyaneshwar@company.com</email>
+    </employee>
+
+    <employee empID="E102">
+        <name>Sujay Bonde</name>
+        <department>IT</department>
+        <designation>Software Engineer</designation>
+        <salary>65000</salary>
+        <email>sujay@company.com</email>
+    </employee>
+
+    <employee empID="E103">
+        <name>Kanishk Jadhav</name>
+        <department>Finance</department>
+        <designation>Accountant</designation>
+        <salary>48000</salary>
+        <email>kanishk@company.com</email>
+    </employee>
+    <employee empID="E103">
+        <name>Aditya Jagtap</name>
+        <department>Finance</department>
+        <designation>Accountant</designation>
+        <salary>40000</salary>
+        <email>aditya@company.com</email>
+    </employee>
+    <employee empID="E103">
+        <name>Manish Shekhawat</name>
+        <department>Bakend Development</department>
+        <designation>Database Administrator</designation>
+        <salary>50000</salary>
+        <email>manish@company.com</email>
+    </employee>
+</employees>

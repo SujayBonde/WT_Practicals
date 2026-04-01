@@ -1,0 +1,30 @@
+/* External CSS */
+
+img {
+    border: 3px solid brown;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+a:hover {
+    color: green;
+}
+
+ul {
+    color: #7b0000;
+}
+
+ol {
+    color: #004d00;
+}
+
+input, select {
+    padding: 6px;
+    width: 90%;
+}

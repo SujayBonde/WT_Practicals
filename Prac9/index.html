@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="authApp">
+<head>
+    <title>AngularJS Login & Registration</title>
+
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <!-- AngularJS Routing -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>AngularJS Authentication</h2>
+
+<nav>
+    <a href="#!/register">Register</a> |
+    <a href="#!/login">Login</a>
+</nav>
+
+<!-- Page content will load here -->
+<div ng-view></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

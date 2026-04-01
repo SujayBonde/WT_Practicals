@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <!-- Enable dynamic method invocation if needed -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="login" class="LoginAction">
+            <!-- Validation e: Re-display wrongly entered values with message -->
+            <result name="input">/login.jsp</result>
+            
+            <!-- Validation f: Congratulations and welcome page -->
+            <result name="success">/welcome.jsp</result>
+        </action>
+    </package>
+</struts>

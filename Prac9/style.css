@@ -1,0 +1,29 @@
+body{
+    font-family: Arial;
+    text-align:center;
+}
+
+nav a{
+    margin:10px;
+    text-decoration:none;
+}
+
+.container{
+    border:1px solid #ccc;
+    width:300px;
+    margin:20px auto;
+    padding:20px;
+}
+
+input{
+    width:90%;
+    padding:8px;
+    margin:5px;
+}
+
+button{
+    padding:8px 15px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+}
